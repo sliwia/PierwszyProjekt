@@ -1,0 +1,26 @@
+.person{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 150px;
+}
+.row-reverse    { 
+    -webkit-flex-direction: row-reverse; 
+    flex-direction: row-reverse;
+  }
+.avatar{
+    position: absolute;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+.person1{
+    background-image: url("https://picsum.photos/200")
+}
+.about-text{
+    font-weight: bold;
+}
+.worksite{
+    font-weight: bold;
+    font-size: 14px;
+}
