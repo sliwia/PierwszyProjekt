@@ -6,6 +6,8 @@
   #offer h1 {
     margin-bottom: 80px;
     color: white;
+    font-size: 30px;
+    font-weight: bold;
   }
   
   .box-container {
@@ -15,7 +17,7 @@
     grid-column-gap: 46.8px;
     grid-row-gap: 46.8px;
     width: 720px;
-    margin: 0 auto;
+    margin: 0 auto; 
   }
   
   .box-container > div:after {
@@ -23,6 +25,7 @@
     display: block;
     background: #F1F1F1;
     padding-bottom: 100%;
+
   }
   
   .box-container > div {
@@ -45,10 +48,13 @@
   
   .box-container .box-content span {
     font-size: 18px;
+    
   }
   
-  .box-container:hover{
+  .single-box:hover {
     transform: scale(1.05);
+    transition: 1s all;
+    cursor: pointer;
   }
 
   .box-new:before {

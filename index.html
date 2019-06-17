@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Pierwszy projekt zaliczeniowy</title>
+    <link rel="stylesheet"  href="css/reset.css">
     <link rel="stylesheet"  href="css/main.css">
     <link rel="stylesheet"  href="css/menu.css">
     <link rel="stylesheet"  href="css/home.css">
@@ -25,7 +26,7 @@
             <div>
                 <a href="#about">O nas</a>
                 <a href="#offer">Oferta</a>
-                <a href="" style="cursor: not-allowed;opacity: 0.6;">Kontakt</a>
+                <a  style="cursor: not-allowed;opacity: 0.6;">Kontakt</a>
             </div>
         </div>
     </nav>
@@ -44,43 +45,39 @@
 
     <section id="about">
         <div class="container">
-            <h1>Nasi specjaliści</h1>
+            <h1 class="title-specialists">Nasi specjaliści</h1>
             <div class="person">
                 <div class="avatar person1">
                 </div>
-                <div class="worksite">
-                    <h3>
-                        Jan Kowalski [CEO]
-                    </h3>
-                </div>
-                <div class="about-text">           
-                    <span>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse 
-                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non 
-                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </span>
+                <div>
+                  <h3>
+                      Jan Kowalski [CEO]
+                  </h3>          
+                  <span>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                      incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse 
+                      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non 
+                      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                  </span>
                 </div>
                 
             </div>
-            <div class="person row-reverse">
+            <div class="person">
                 <div class="avatar person1"></div>
-                <div class="worksite">
-                    <h3>
-                        Janusz Nowak [Dyrektor IT]
-                    </h3>
-                </div>
-                <div class="about-text">
-                        <span>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse 
-                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non 
-                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                        </span>
+                <div>
+                  <h3>
+                      Janusz Nowak [Dyrektor IT]
+                  </h3>
+                  <span>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                      incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse 
+                      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non 
+                      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                  </span>
                 </div>
             </div>
 
@@ -91,37 +88,37 @@
               <h1>Czym zajmuje się nasza firma ?</h1>
         
               <div class="box-container">
-                <div class="box-new">
+                <div class="box-new ">
                   <div class="box-content">
                     Usługa 1 <span>(nowość)</span>
                   </div>
                 </div>
         
-                <div>
+                <div class="single-box">
                   <div class="box-content">
                     Usługa 2
                   </div>
                 </div>
         
-                <div>
+                <div class="single-box">
                   <div class="box-content">
                     Usługa 3
                   </div>
                 </div>
         
-                <div>
+                <div class="single-box">
                   <div class="box-content">
                     Usługa 4
                   </div>
                 </div>
         
-                <div>
+                <div class="single-box">
                   <div class="box-content">
                     Usługa 5
                   </div>
                 </div>
         
-                <div>
+                <div class="single-box">
                   <div class="box-content">
                     Usługa 6
                   </div>
@@ -132,18 +129,15 @@
         
     <!-- footer -> focter.css: -->
     <footer>
-        <div id="footer-box">
+      <div class="container footer-container">
             <div >
                 <span>Nazwa firmy, wszelkie prawa zastrzeżone, 2019</span>
             </div>
             <div >
-                <span><i class="fab fa-instagram fa-2x"></i></span>
+                <i class="fab fa-instagram fa-1.7x"></i>
+                <i class="fab fa-facebook-square fa-1.7x"></i>
             </div>
-            <div >
-                <span><i class="fab fa-facebook-square fa-2x"></i></span>
-            </div>
-            
-        </div>
+      </div>
     </footer>
 </body>
 </html>
