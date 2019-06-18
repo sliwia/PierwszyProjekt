@@ -7,10 +7,12 @@ a{
     width: 960px;
     margin: 0 auto;
 }
+
 .container:first-child:a{
     margin-left: 25px;
     font-weight: bold;
 }
+
 nav{
     background-color: grey;
 }
@@ -21,5 +23,4 @@ nav{
     justify-content: space-between;
     height: 50px;
     font-size: 18px;   
-
 }
