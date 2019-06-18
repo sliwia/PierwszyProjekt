@@ -13,9 +13,12 @@
 }
 .person:nth-of-type(even) {
     display: flex;
-    justify-content: flex-end;
     -webkit-flex-direction: row-reverse; 
     flex-direction: row-reverse;
+}
+.person h3{
+    font-weight: bold;
+    margin-bottom: 30px;
 }
         
 .person1{
