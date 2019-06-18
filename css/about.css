@@ -12,7 +12,7 @@
     margin-bottom: 60px;
 }
 .person:nth-of-type(even) {
-    display: flex;
+    text-align: right;
     -webkit-flex-direction: row-reverse; 
     flex-direction: row-reverse;
 }
