@@ -23,11 +23,40 @@ nav a{
 .nav--links{
     display: none;
 }
-.nav--toggler {
-  width: 30px;
-  height: 30px;
-  background: white;
-  cursor: pointer;
+
+
+.nav--toggler{
+    position: relative;
+    width: 40px;
+    height: 30px;
+    border: none;
+    outline:none;
+    border-top: 3px solid white;
+    background: transparent;
+    transition: 0.5s transform linear;
+}
+
+.nav--toggler::before, .nav--toggler::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-top: 3px solid white;
+    transform: translateY(9px);
+}
+.nav--toggler::after{
+    transform: translateY(20px);
+    transition: 0.5s transform linear;
+}
+
+.nav--toggler:focus{
+    transform: rotate(45deg) translateY(3px);
+    border: none;
+}
+
+.nav--toggler:focus::after{
+    transform: rotate(-90deg) translateX(-9px);
 }
 
 @media screen and (min-width: 768px){
