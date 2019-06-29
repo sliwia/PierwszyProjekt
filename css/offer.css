@@ -9,7 +9,7 @@
   font-weight: bold;
   padding: 0 5%;
 }
-  
+
 .box-container {
   display: grid;
   grid-template-columns: auto;
@@ -18,7 +18,7 @@
   grid-row-gap: 46.8px;
   width: auto;
   padding: 10%;
-  margin: 0 auto; 
+  margin: 0 auto;
 }
 
 .box-container > div:after {
@@ -49,11 +49,6 @@
   font-size: 18px;
 }
 
-.single-box:hover {
-  transform: scale(1.05);
-  transition: 1s all;
-  cursor: pointer;
-}
 
 .box-new:before {
   content: '';
@@ -85,7 +80,7 @@
     grid-column-gap: 46.8px;
     grid-row-gap: 46.8px;
     width: auto;
-    margin: 0 auto; 
+    margin: 0 auto;
   }
 }
 
@@ -107,6 +102,11 @@
     grid-column-gap: 46.8px;
     grid-row-gap: 46.8px;
     width: 720px;
-    margin: 0 auto; 
+    margin: 0 auto;
+  }
+  .single-box:hover {
+    transform: scale(1.05);
+    transition: 1s all;
+    cursor: pointer;
   }
 }

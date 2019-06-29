@@ -6,10 +6,10 @@ footer{
     display: flex;
     flex-direction:column;
     align-items: center;
-    height: 50px; 
+    height: 50px;
     line-height: 1.7;
     color: white;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: bold;
     padding-top: 5%;
 

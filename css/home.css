@@ -1,36 +1,28 @@
 #home{
     position: relative;
     width: 100%;
-    /* Czy może zosta vh ? */
     height: 100vh;
-    /* background-image:url('https://picsum.photos/id/62/1920/1080'); */
     background-image: linear-gradient( rgba(0,0,0,.15), rgba(0,0,0,.15)),url('https://picsum.photos/id/62/1920/1080');
     background-repeat: no-repeat;
-    background-position: center; 
-    padding-left: 5%;
+    background-position: center;
 }
 
-/* .home-shadow{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: rgba(0,0,0,.15);
-} */
 
 .home-container {
     display: flex;
     justify-content: center;
     flex-direction: column;
     height: 100%;
+    padding-left: 5%;
 }
-  
+
 .home-text{
     width: 70%;
     color: white;
     font-weight: bold;
 }
 
-.home-text h1, h2{  
+.home-text h1, h2{
     margin-bottom: 50px;
 }
 
@@ -53,34 +45,34 @@
     transition: 1s all;
 }
 
-.button-offer:hover{
-    color: black;
-    background-color: white;
-}
-
 
 @media screen and (min-width: 768px){
-    #home{
+    .home-container{
         padding-left: 0;
     }
     .home-text h1{
         font-size: 40px;
     }
-    
+
     .home-text h2{
         font-size: 20px;
     }
 }
 
 @media screen and (min-width: 1200px){
-    #home{
+    .home-container{
         padding-left: 0;
     }
+
     .home-text h1{
         font-size: 40px;
     }
-    
+
     .home-text h2{
         font-size: 20px;
+    }
+    .button-offer:hover{
+        color: black;
+        background-color: white;
     }
 }
